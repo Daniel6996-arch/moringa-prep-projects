@@ -1,0 +1,55 @@
+.parent{
+    text-align: center;
+    font-style: italic;
+}
+.red{
+    color: red;
+    font-size: 4rem;
+    text-decoration: underline;
+}
+.green{
+    color: green;
+    font-size: 4rem;
+    text-decoration: underline;
+}
+.blue{
+    color: blue;
+    font-size: 4rem;
+    text-decoration: underline;
+}
+.purple{
+    color: purple;
+    font-size: 4rem;
+    text-decoration: underline;
+}
+.pink{
+    color: pink;
+    font-size: 4rem;
+    text-decoration: underline;
+}
+.flex{
+    display: flex;
+    flex-direction: column;
+}
+.text-cen{
+    text-align: center;
+    font-size: 5vw;
+}
+.form{
+    font-size: 2vw;
+}
+.btn{
+    margin-top: 1vw;
+    width: 15vw;
+    padding: 0.3vw;
+}
+#money, #user, .balance{
+    display: none;
+}
+.rem{
+    font-size: 1rem;
+}
+nav{
+    display: flex;
+    flex-direction: column;
+}

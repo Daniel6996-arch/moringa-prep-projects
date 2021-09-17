@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="js/index.js"></script>
+    <script src="js/main.js"></script>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Apel Bank</title>
+</head>
+<body>
+   <div class="container parent" id="parent"> 
+    <h1 class="hide"><span class="red">A</span><span class="pink">p</span><span class="green">p</span><span class="purple">e</span><span class="blue">l</span> Finance</h1>
+   </div>
+   <div class="container">
+       <h4 class="text-cen">Welcome to Appel Finance</h4>
+       <nav>
+        <a href="index.html">Home</a>
+        <a href="#user" id="linkOne">Accounts</a>
+        <a href="#money" id="linkTwo">Funds</a>
+       </nav>
+       <div class="container text-cen" id="about">
+           <h6>About Us</h6>
+           <p class="rem">Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia soluta necessitatibus cumque quam. Esse molestias optio magnam consectetur quae nisi asperiores vel cum maiores aliquid perferendis odit soluta, ut eligendi necessitatibus a molestiae illum eaque, atque facilis maxime ab est! Non, enim ut. Vel et labore blanditiis nihil explicabo dignissimos sed quasi id voluptas facere necessitatibus, pariatur quaerat dolores a architecto, eligendi veniam delectus!</p> 
+       </div>
+            <form id="account">
+                <div class="flex" id="user">
+                    <h6 class="text-cen">Register New Account</h6>
+                    <label>Name</label>
+                    <input class="input" id="inputOne">
+                    <label>Email</label>
+                    <input class="input" type="email" id="inputTwo">
+                    <button type="submit" value="submit" class="btn">Submit</button>
+                </div>
+                <div class="flex" id="money"> 
+                    <h6 class="text-cen">Deposit or Withdraw Funds</h6>
+                    <label>Deposit Amount</label>
+                    <input class="input" type="number" id="inputThree" value="deposit">
+                    <label>Withdraw Amount</label>
+                    <input class="input" type="number" id="inputFour" value="withdraw">
+                    <button type="submit" value="submit" class="btn">Submit</button>
+                </div>
+            </form>
+        </div>
+   <div class="container">
+      <div class="balance">
+       <h1>Current Balance</h1>
+       <p class="output"></p>
+      </div>
+   </div>
+
+</body>
+</html>
